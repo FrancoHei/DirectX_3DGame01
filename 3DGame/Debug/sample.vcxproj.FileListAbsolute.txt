@@ -1,0 +1,2 @@
+D:\DirectX\3DGame1.2\3DGame\Debug\sample.exe
+D:\DirectX\3DGame1.2\3DGame\Debug\sample.pdb

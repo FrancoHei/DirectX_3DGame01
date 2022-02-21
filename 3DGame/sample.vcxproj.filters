@@ -1,0 +1,366 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="リソース ファイル">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="ソース ファイル">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="ヘッダー ファイル">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;hm;inl;inc;ipp;xsd</Extensions>
+    </Filter>
+    <Filter Include="ソース ファイル\other">
+      <UniqueIdentifier>{f5627ec1-28d2-4e24-ab12-add1601595d3}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ヘッダー ファイル\other">
+      <UniqueIdentifier>{bafb051d-6914-4107-b9eb-f4901db59c68}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ヘッダー ファイル\scene">
+      <UniqueIdentifier>{ed7e957a-fb2f-491f-a684-c6d4355d8612}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ソース ファイル\scene">
+      <UniqueIdentifier>{9957ad21-9498-4e21-aecd-735f602cff04}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ソース ファイル\map">
+      <UniqueIdentifier>{e0f8a86b-1908-4ea1-a499-acf63bdbdfb7}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ヘッダー ファイル\map">
+      <UniqueIdentifier>{3277e204-c615-4562-a8c5-d095fe35c751}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ヘッダー ファイル\mapItem">
+      <UniqueIdentifier>{c3fe98c5-c6ea-4fa6-9b6d-221d8d051199}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ソース ファイル\camera">
+      <UniqueIdentifier>{d041240c-4eb5-4f74-b6ce-b6b8b98b201e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ソース ファイル\player">
+      <UniqueIdentifier>{58728ded-385b-4794-9fa2-67b0a33ffbb8}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ソース ファイル\ui">
+      <UniqueIdentifier>{3c42699a-7262-46ba-9cfd-0a806dcee417}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ヘッダー ファイル\player">
+      <UniqueIdentifier>{6da88f0f-dc60-4eed-87f4-cc86adad99ec}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ヘッダー ファイル\ui">
+      <UniqueIdentifier>{eb7da778-5f2d-419e-846c-81879503e2a0}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ヘッダー ファイル\stage">
+      <UniqueIdentifier>{29f0ec17-017e-418a-a223-32c12cfd58ec}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ソース ファイル\stage">
+      <UniqueIdentifier>{4a614692-8d22-46c2-b6c6-21c8d3bc9288}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ヘッダー ファイル\character">
+      <UniqueIdentifier>{eee56cef-1a9f-4061-8ac2-140067b03c2a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ソース ファイル\mapItem">
+      <UniqueIdentifier>{63cef3e4-c48d-4d93-bf91-089e6584807d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ヘッダー ファイル\mapItem\Field">
+      <UniqueIdentifier>{683beddb-e54a-4597-93c2-ec314ef1e7a5}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ソース ファイル\character">
+      <UniqueIdentifier>{a2613dea-a14a-436f-914d-d025cd89ea75}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ヘッダー ファイル\ui\Button">
+      <UniqueIdentifier>{3837b188-2c3e-4f2d-9786-6e99bc1cb200}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ヘッダー ファイル\mapItem\Switch">
+      <UniqueIdentifier>{1bcb8ad8-d574-4d6f-8716-eeabd3f57e40}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="camera.h">
+      <Filter>ヘッダー ファイル\other</Filter>
+    </ClInclude>
+    <ClInclude Include="collision.h">
+      <Filter>ヘッダー ファイル\other</Filter>
+    </ClInclude>
+    <ClInclude Include="input.h">
+      <Filter>ヘッダー ファイル\other</Filter>
+    </ClInclude>
+    <ClInclude Include="light.h">
+      <Filter>ヘッダー ファイル\other</Filter>
+    </ClInclude>
+    <ClInclude Include="renderer.h">
+      <Filter>ヘッダー ファイル\other</Filter>
+    </ClInclude>
+    <ClInclude Include="model.h">
+      <Filter>ヘッダー ファイル\other</Filter>
+    </ClInclude>
+    <ClInclude Include="sound.h">
+      <Filter>ヘッダー ファイル\other</Filter>
+    </ClInclude>
+    <ClInclude Include="sprite.h">
+      <Filter>ヘッダー ファイル\other</Filter>
+    </ClInclude>
+    <ClInclude Include="Texture.h">
+      <Filter>ヘッダー ファイル\other</Filter>
+    </ClInclude>
+    <ClInclude Include="scene.h">
+      <Filter>ヘッダー ファイル\scene</Filter>
+    </ClInclude>
+    <ClInclude Include="result.h">
+      <Filter>ヘッダー ファイル\scene</Filter>
+    </ClInclude>
+    <ClInclude Include="title.h">
+      <Filter>ヘッダー ファイル\scene</Filter>
+    </ClInclude>
+    <ClInclude Include="fade.h">
+      <Filter>ヘッダー ファイル\scene</Filter>
+    </ClInclude>
+    <ClInclude Include="mapItem.h">
+      <Filter>ヘッダー ファイル\mapItem</Filter>
+    </ClInclude>
+    <ClInclude Include="map_1.h">
+      <Filter>ヘッダー ファイル\map</Filter>
+    </ClInclude>
+    <ClInclude Include="game.h">
+      <Filter>ヘッダー ファイル\scene</Filter>
+    </ClInclude>
+    <ClInclude Include="main.h">
+      <Filter>ヘッダー ファイル\scene</Filter>
+    </ClInclude>
+    <ClInclude Include="player.h">
+      <Filter>ヘッダー ファイル\player</Filter>
+    </ClInclude>
+    <ClInclude Include="shadow.h">
+      <Filter>ヘッダー ファイル\player</Filter>
+    </ClInclude>
+    <ClInclude Include="score.h">
+      <Filter>ヘッダー ファイル\ui</Filter>
+    </ClInclude>
+    <ClInclude Include="timer.h">
+      <Filter>ヘッダー ファイル\ui</Filter>
+    </ClInclude>
+    <ClInclude Include="ui.h">
+      <Filter>ヘッダー ファイル\ui</Filter>
+    </ClInclude>
+    <ClInclude Include="stage.h">
+      <Filter>ヘッダー ファイル\stage</Filter>
+    </ClInclude>
+    <ClInclude Include="classResource.h">
+      <Filter>ヘッダー ファイル\ui</Filter>
+    </ClInclude>
+    <ClInclude Include="character.h">
+      <Filter>ヘッダー ファイル\character</Filter>
+    </ClInclude>
+    <ClInclude Include="character_1.h">
+      <Filter>ヘッダー ファイル\character</Filter>
+    </ClInclude>
+    <ClInclude Include="wall.h">
+      <Filter>ヘッダー ファイル\mapItem</Filter>
+    </ClInclude>
+    <ClInclude Include="block.h">
+      <Filter>ヘッダー ファイル\mapItem</Filter>
+    </ClInclude>
+    <ClInclude Include="field.h">
+      <Filter>ヘッダー ファイル\mapItem\Field</Filter>
+    </ClInclude>
+    <ClInclude Include="bridgeField.h">
+      <Filter>ヘッダー ファイル\mapItem\Field</Filter>
+    </ClInclude>
+    <ClInclude Include="fireField.h">
+      <Filter>ヘッダー ファイル\mapItem\Field</Filter>
+    </ClInclude>
+    <ClInclude Include="staminaBar.h">
+      <Filter>ヘッダー ファイル\ui</Filter>
+    </ClInclude>
+    <ClInclude Include="hpBar.h">
+      <Filter>ヘッダー ファイル\ui</Filter>
+    </ClInclude>
+    <ClInclude Include="arrow.h">
+      <Filter>ヘッダー ファイル\mapItem</Filter>
+    </ClInclude>
+    <ClInclude Include="guide.h">
+      <Filter>ヘッダー ファイル\ui</Filter>
+    </ClInclude>
+    <ClInclude Include="map.h">
+      <Filter>ヘッダー ファイル\map</Filter>
+    </ClInclude>
+    <ClInclude Include="button.h">
+      <Filter>ヘッダー ファイル\ui\Button</Filter>
+    </ClInclude>
+    <ClInclude Include="gameStart_Button.h">
+      <Filter>ヘッダー ファイル\ui\Button</Filter>
+    </ClInclude>
+    <ClInclude Include="gameDescription_Button.h">
+      <Filter>ヘッダー ファイル\ui\Button</Filter>
+    </ClInclude>
+    <ClInclude Include="rock.h">
+      <Filter>ヘッダー ファイル\mapItem</Filter>
+    </ClInclude>
+    <ClInclude Include="treasure.h">
+      <Filter>ヘッダー ファイル\mapItem</Filter>
+    </ClInclude>
+    <ClInclude Include="gameOver.h">
+      <Filter>ヘッダー ファイル\scene</Filter>
+    </ClInclude>
+    <ClInclude Include="gameClear.h">
+      <Filter>ヘッダー ファイル\scene</Filter>
+    </ClInclude>
+    <ClInclude Include="stage_1.h">
+      <Filter>ヘッダー ファイル\stage</Filter>
+    </ClInclude>
+    <ClInclude Include="map_2.h">
+      <Filter>ヘッダー ファイル\map</Filter>
+    </ClInclude>
+    <ClInclude Include="stage_2.h">
+      <Filter>ヘッダー ファイル\stage</Filter>
+    </ClInclude>
+    <ClInclude Include="semaphore.h">
+      <Filter>ヘッダー ファイル\mapItem</Filter>
+    </ClInclude>
+    <ClInclude Include="ironBox.h">
+      <Filter>ヘッダー ファイル\mapItem</Filter>
+    </ClInclude>
+    <ClInclude Include="woodBox.h">
+      <Filter>ヘッダー ファイル\mapItem</Filter>
+    </ClInclude>
+    <ClInclude Include="red_Switch.h">
+      <Filter>ヘッダー ファイル\mapItem\Switch</Filter>
+    </ClInclude>
+    <ClInclude Include="switch.h">
+      <Filter>ヘッダー ファイル\mapItem\Switch</Filter>
+    </ClInclude>
+    <ClInclude Include="yellow_Switch.h">
+      <Filter>ヘッダー ファイル\mapItem\Switch</Filter>
+    </ClInclude>
+    <ClInclude Include="image.h">
+      <Filter>ヘッダー ファイル\other</Filter>
+    </ClInclude>
+    <ClInclude Include="stateSelect.h">
+      <Filter>ヘッダー ファイル\scene</Filter>
+    </ClInclude>
+    <ClInclude Include="characterSelectMenu.h">
+      <Filter>ヘッダー ファイル\scene</Filter>
+    </ClInclude>
+    <ClInclude Include="blueSlime_Button.h">
+      <Filter>ヘッダー ファイル\ui\Button</Filter>
+    </ClInclude>
+    <ClInclude Include="greenSlime_Button.h">
+      <Filter>ヘッダー ファイル\ui\Button</Filter>
+    </ClInclude>
+    <ClInclude Include="yellowSlime_Button.h">
+      <Filter>ヘッダー ファイル\ui\Button</Filter>
+    </ClInclude>
+    <ClInclude Include="character_2.h">
+      <Filter>ヘッダー ファイル\character</Filter>
+    </ClInclude>
+    <ClInclude Include="character_3.h">
+      <Filter>ヘッダー ファイル\character</Filter>
+    </ClInclude>
+    <ClInclude Include="constant.h">
+      <Filter>ヘッダー ファイル\other</Filter>
+    </ClInclude>
+    <ClInclude Include="stage_3.h">
+      <Filter>ヘッダー ファイル\stage</Filter>
+    </ClInclude>
+    <ClInclude Include="map_3.h">
+      <Filter>ヘッダー ファイル\map</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="collision.cpp">
+      <Filter>ソース ファイル\other</Filter>
+    </ClCompile>
+    <ClCompile Include="light.cpp">
+      <Filter>ソース ファイル\other</Filter>
+    </ClCompile>
+    <ClCompile Include="sound.cpp">
+      <Filter>ソース ファイル\other</Filter>
+    </ClCompile>
+    <ClCompile Include="Texture.cpp">
+      <Filter>ソース ファイル\other</Filter>
+    </ClCompile>
+    <ClCompile Include="model.cpp">
+      <Filter>ソース ファイル\other</Filter>
+    </ClCompile>
+    <ClCompile Include="sprite.cpp">
+      <Filter>ソース ファイル\other</Filter>
+    </ClCompile>
+    <ClCompile Include="renderer.cpp">
+      <Filter>ソース ファイル\other</Filter>
+    </ClCompile>
+    <ClCompile Include="scene.cpp">
+      <Filter>ソース ファイル\scene</Filter>
+    </ClCompile>
+    <ClCompile Include="title.cpp">
+      <Filter>ソース ファイル\scene</Filter>
+    </ClCompile>
+    <ClCompile Include="fade.cpp">
+      <Filter>ソース ファイル\scene</Filter>
+    </ClCompile>
+    <ClCompile Include="input.cpp">
+      <Filter>ソース ファイル\other</Filter>
+    </ClCompile>
+    <ClCompile Include="camera.cpp">
+      <Filter>ソース ファイル\camera</Filter>
+    </ClCompile>
+    <ClCompile Include="game.cpp">
+      <Filter>ソース ファイル\scene</Filter>
+    </ClCompile>
+    <ClCompile Include="player.cpp">
+      <Filter>ソース ファイル\player</Filter>
+    </ClCompile>
+    <ClCompile Include="shadow.cpp">
+      <Filter>ソース ファイル\player</Filter>
+    </ClCompile>
+    <ClCompile Include="main.cpp">
+      <Filter>ソース ファイル\scene</Filter>
+    </ClCompile>
+    <ClCompile Include="result.cpp">
+      <Filter>ソース ファイル\scene</Filter>
+    </ClCompile>
+    <ClCompile Include="score.cpp">
+      <Filter>ソース ファイル\ui</Filter>
+    </ClCompile>
+    <ClCompile Include="ui.cpp">
+      <Filter>ソース ファイル\ui</Filter>
+    </ClCompile>
+    <ClCompile Include="stage.cpp">
+      <Filter>ソース ファイル\stage</Filter>
+    </ClCompile>
+    <ClCompile Include="block.cpp">
+      <Filter>ソース ファイル\mapItem</Filter>
+    </ClCompile>
+    <ClCompile Include="character.cpp">
+      <Filter>ソース ファイル\character</Filter>
+    </ClCompile>
+    <ClCompile Include="arrow.cpp">
+      <Filter>ソース ファイル\mapItem</Filter>
+    </ClCompile>
+    <ClCompile Include="rock.cpp">
+      <Filter>ソース ファイル\mapItem</Filter>
+    </ClCompile>
+    <ClCompile Include="semaphore.cpp">
+      <Filter>ソース ファイル\mapItem</Filter>
+    </ClCompile>
+    <ClCompile Include="ironBox.cpp">
+      <Filter>ソース ファイル\mapItem</Filter>
+    </ClCompile>
+    <ClCompile Include="treasure.cpp">
+      <Filter>ソース ファイル\mapItem</Filter>
+    </ClCompile>
+    <ClCompile Include="switch.cpp">
+      <Filter>ソース ファイル\mapItem</Filter>
+    </ClCompile>
+    <ClCompile Include="woodBox.cpp">
+      <Filter>ソース ファイル\mapItem</Filter>
+    </ClCompile>
+    <ClCompile Include="map.cpp">
+      <Filter>ソース ファイル\map</Filter>
+    </ClCompile>
+    <ClCompile Include="characterSelectMenu.cpp">
+      <Filter>ソース ファイル</Filter>
+    </ClCompile>
+    <ClCompile Include="classResource.cpp">
+      <Filter>ソース ファイル\other</Filter>
+    </ClCompile>
+  </ItemGroup>
+</Project>
